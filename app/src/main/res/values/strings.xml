@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">WarCry</string>
+    <string name="bt_create">Create</string>
+    <string name="bt_load">Load</string>
+    <string name="add_list_name">List name</string>
+    <string name="add_faction_name">Faction</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="factionList">
+        <item>Original Warbands</item>
+        <item>Order</item>
+        <item>Chaos</item>
+        <item>Death</item>
+        <item>Destruction</item>
+    </string-array>
+
+    <string-array name="originalWarbands">
+        <item>Iron Golems</item>
+        <item>Untamed Beasts</item>
+        <item>Corvus Cabal</item>
+        <item>Cypher Lords</item>
+        <item>Splintered Fang</item>
+        <item>Unmade</item>
+        <item>Spire Tyrants</item>
+        <item>Scions of Flame</item>
+        <item>Khainite Shadowstalkers</item>
+        <item>Darkoath Savagers</item>
+        <item>Tarantulos Brood</item>
+    </string-array>
+
+    <string-array name="orderWarbands">
+        <item>Cities of Sigmar</item>
+        <item>Daughters of Khaine</item>
+        <item>Fyreslayers</item>
+        <item>Idoneth Deepkin</item>
+        <item>Kharadron Overlords</item>
+        <item>Lumineth</item>
+        <item>Stormcast Sacrosanct Chamber</item>
+        <item>Stormcast Vanguard</item>
+        <item>Stormcast Warrior Chamber</item>
+        <item>Sylvaneth Warband</item>
+        <item>Thunderstrike Stormcast</item>
+    </string-array>
+
+    <string-array name="chaosWarbands">
+        <item>Beasts of Chaos</item>
+        <item>Khorne Bloodbound</item>
+        <item>Khorne Daemons</item>
+        <item>Nurgle Daemons</item>
+        <item>Nurgle Rotbringers</item>
+        <item>Skaven</item>
+        <item>Slaanesh Daemons</item>
+        <item>Slaanesh: Sybarites</item>
+        <item>Slaves to Darkness</item>
+        <item>Tzeentch Arcanites</item>
+        <item>Tzeentch Daemons</item>
+    </string-array>
+
+    <string-array name="deathWarbands">
+        <item>Flesh-Eater Courts</item>
+        <item>Nighthaunt</item>
+        <item>Ossiarch Bonereapers</item>
+        <item>Soulblight Gravelords</item>
+    </string-array>
+
+    <string-array name="destructionWarbands">
+        <item>Bonesplitterz</item>
+        <item>Gloomsite Gitz</item>
+        <item>Ironjawz</item>
+        <item>Kruleboyz</item>
+        <item>Ogor Mawtribes</item>
+    </string-array>
+</resources>
