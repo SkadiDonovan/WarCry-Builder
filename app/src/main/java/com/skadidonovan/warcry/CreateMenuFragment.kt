@@ -18,8 +18,7 @@ import android.widget.ArrayAdapter as ArrayAdapter
 
 
 class CreateMenuFragment : Fragment() {
-    lateinit var binding : FragmentCreateMenuBinding
-    val listt = R.array.factionList
+    lateinit var binding: FragmentCreateMenuBinding
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -29,64 +28,9 @@ class CreateMenuFragment : Fragment() {
         return binding.root
     }
 
-
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        val adapter: ArrayAdapter<String> = object : ArrayAdapter<String>(
-            requireActivity(),
-            android.R.layout.simple_spinner_dropdown_item,
-            listt
-        ){
-            override fun getDropDownView(
-                position: Int,
-                convertView: View?,
-                parent: ViewGroup
-            ): View {
-                val view: TextView = super.getDropDownView(
-                    position,
-                    convertView,
-                    parent
-                ) as TextView
-                return view
-            }
-        }
-        binding.factionSpinner.adapter = adapter
-
-        binding.factionSpinner.onItemSelectedListener = object :
-            AdapterView.OnItemSelectedListener {
-            override fun onItemSelected(
-                parent: AdapterView<*>,
-                view: View,
-                position: Int,
-                id: Long
-            ) {
-                if (binding.factionSpinner.selectedItemPosition == R.array.factionList.component2()){
-                    binding.spinner.adapter = spinnerAppointment(R.array.orderWarbands)
-                    binding.spinner.visibility = View.VISIBLE
-                }
-            }
-
-            override fun onNothingSelected(parent: AdapterView<*>?) {
-                // another interface callback
-            }
-        }
-    }
-
     companion object {
         @JvmStatic
         fun newInstance() = CreateMenuFragment()
     }
-
-    override fun onContextItemSelected(item: MenuItem): Boolean {
-        return super.onContextItemSelected(item)
-    }
-
-
-    fun spinnerAppointment(factionList : Int) : ArrayAdapter<String> {
-        val adapter: ArrayAdapter<String> = object : ArrayAdapter<String>(
-            requireActivity(),
-            android.R.layout.simple_spinner_dropdown_item,
-            factionList
-        ){}
-        return adapter
-    }
 }
+
