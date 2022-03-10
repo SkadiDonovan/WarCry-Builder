@@ -8,7 +8,7 @@
 
     <EditText
         android:id="@+id/add_list_name"
-        android:layout_width="287dp"
+        android:layout_width="300dp"
         android:layout_height="54dp"
         android:layout_marginTop="215dp"
         android:backgroundTint="@color/trans"
@@ -26,7 +26,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.skydoves.powerspinner.PowerSpinnerView
-        android:id="@+id/powerSpinnerView2"
+        android:id="@+id/change_ally_spinner"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:background="@color/trans"
@@ -57,7 +57,7 @@
         tools:ignore="MissingConstraints" />
 
     <com.skydoves.powerspinner.PowerSpinnerView
-        android:id="@+id/powerSpinnerView"
+        android:id="@+id/change_faction_spinner"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:background="@color/trans"
@@ -74,14 +74,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/powerSpinnerView2"
+        app:layout_constraintTop_toBottomOf="@+id/change_ally_spinner"
         app:layout_constraintVertical_bias="0.05"
         app:spinner_arrow_gravity="end"
         app:spinner_arrow_padding="8dp"
         app:spinner_divider_color="@color/white"
         app:spinner_divider_show="true"
         app:spinner_divider_size="0.4dp"
-        app:spinner_item_array="@array/originalWarbands"
         app:spinner_popup_animation="dropdown"
         app:spinner_popup_background="@color/button_color"
         app:spinner_popup_elevation="14dp"
