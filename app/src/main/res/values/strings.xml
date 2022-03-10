@@ -4,6 +4,8 @@
     <string name="bt_load">Load</string>
     <string name="add_list_name">List name</string>
     <string name="add_faction_name">Faction</string>
+    <string name="change_ally">Change Ally</string>
+    <string name="change_faction">Change Faction</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
