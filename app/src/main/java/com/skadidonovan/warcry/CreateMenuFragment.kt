@@ -31,7 +31,6 @@ class CreateMenuFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
 
-
         binding.changeAllySpinner.setOnSpinnerItemSelectedListener<String> { oldIndex, oldItem, newIndex, newText ->
             when (newText){
                 "Original Warbands" -> binding.changeFactionSpinner.setItems(R.array.originalWarbands)
